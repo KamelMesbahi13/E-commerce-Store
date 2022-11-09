@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  body {
+    background-color: #000;
+    color: #F2F2F2;
+    font-family: 'Syne', sans-serif;
+  }
+
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Viaoda Libre', cursive;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl
+  }
+
+  h6 {
+    @apply text-xl sm:text-2xl mb-2
+  }
+
+  p {
+    letter-spacing: 1.2px;
+    line-height: 1.3rem;
+  }
+
+  button {
+    padding: 0.6rem 1.2rem;
+    background-color: #8542b6;
+    border-radius: 2px;
+    transition: 500ms;
+    margin-top: 1rem;
+  }
+
+  button:hover {
+    background-color: #5C2E7E;
+  }
+
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-link {
+    @apply mr-4 text-base tracking-widest relative before:content-[""] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-[80%] before:ease-linear before:duration-500 hover:before:w-full
+
+  }
+
+  .nav-link-sm {
+    @apply w-fit mb-4 text-base duration-300 hover:text-third-color
+
+  }
+}
+
+.ActiveRight {
+  transform: translateX(0%);
+  transition: 1500ms;
+}
+
+.NoneActiveRight {
+  transform: translateX(130%);
+  transition: 1500ms;
+}
+
+.ActiveLeft {
+  transform: translateX(0%);
+  transition: 1500ms;
+}
+
+.NoneActiveLeft {
+  transform: translateX(-140%);
+  transition: 1500ms;
+}
+
+.textCenter {
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+}

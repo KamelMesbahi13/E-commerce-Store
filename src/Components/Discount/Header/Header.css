@@ -1,0 +1,6 @@
+.discount-header-back {
+    background-image: url(../../../assets/DiscountOne.jpeg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}

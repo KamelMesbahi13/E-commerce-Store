@@ -1,0 +1,17 @@
+.about-header-back {
+    background-image: url(../../../assets/AboutUsBack.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.about-header-back::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.450);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

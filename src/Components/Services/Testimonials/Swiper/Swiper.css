@@ -1,0 +1,19 @@
+.swiper-slide img {
+    /* object-fit: cover; */
+}
+
+.swiper-slide {
+    width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+    width: 80%;
+}
+
+.swiper-slide:nth-child(3n) {
+    width: 80%;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #5C2E7E;
+}

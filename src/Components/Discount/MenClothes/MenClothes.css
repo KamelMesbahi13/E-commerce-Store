@@ -1,0 +1,17 @@
+.men-clothes-back {
+    background-image: url(../../../assets/Man8.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.men-clothes-back::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.350);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

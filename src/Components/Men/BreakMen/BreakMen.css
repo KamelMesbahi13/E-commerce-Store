@@ -1,0 +1,16 @@
+.break-back-man {
+    background-image: url(../../../assets/Man7.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+}
+
+.break-back-man::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.250);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

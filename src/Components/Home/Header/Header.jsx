@@ -1,16 +1,14 @@
-import React from 'react';
-// import './Header.css';
-import Swiper from './Swiper/Swiper';
+import React from "react";
+import Swiper from "./Swiper/Swiper";
 
 const Header = () => {
-    return (
-        <>
-            <div name="header">
-                <Swiper />
+  return (
+    <>
+      <div name="header">
+        <Swiper />
+      </div>
+    </>
+  );
+};
 
-            </div>
-        </>
-    )
-}
-
-export default Header
+export default Header;

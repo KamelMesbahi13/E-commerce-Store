@@ -2,26 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
-
   body {
     background-color: #000;
-    color: #F2F2F2;
-    font-family: 'Syne', sans-serif;
+    color: #f2f2f2;
+    font-family: "Syne", sans-serif;
   }
 
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Viaoda Libre', cursive;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Viaoda Libre", cursive;
   }
 
   h1 {
-    @apply text-4xl md:text-5xl
+    @apply text-4xl md:text-5xl;
   }
 
   h6 {
-    @apply text-xl sm:text-2xl mb-2
+    @apply text-xl sm:text-2xl mb-2;
   }
 
   p {
@@ -38,7 +40,7 @@
   }
 
   button:hover {
-    background-color: #5C2E7E;
+    background-color: #5c2e7e;
   }
 
   .container {
@@ -49,13 +51,11 @@
   }
 
   .nav-link {
-    @apply mr-4 text-base tracking-widest relative before:content-[""] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-[80%] before:ease-linear before:duration-500 hover:before:w-full
-
+    @apply mr-4 text-base tracking-widest relative before:content-[""] before:absolute before:w-0 before:bg-third-color before:h-[2px] before:top-[80%] before:ease-linear before:duration-500 hover:before:w-full;
   }
 
   .nav-link-sm {
-    @apply w-fit mb-4 text-base duration-300 hover:text-third-color
-
+    @apply w-fit mb-4 text-base duration-300 hover:text-third-color;
   }
 }
 

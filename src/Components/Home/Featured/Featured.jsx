@@ -18,7 +18,7 @@ const Featured = () => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <h6>Special Products Here..</h6>
+              <h6>Special Products Here...</h6>
               <h1 className="my-4">Featured Products</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit

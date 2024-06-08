@@ -25,7 +25,7 @@ const Discount = () => {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
                 doloribus suscipit aperiam voluptates ab assumenda, officiis,
                 est nihil rerum inventore atque aspernatur iusto mollitia vel!
-                Modi quidem adipisci architecto id.
+                Modi quidem adipisci architecto id..
               </p>
               <a href="/discount">
                 <button>See More</button>
